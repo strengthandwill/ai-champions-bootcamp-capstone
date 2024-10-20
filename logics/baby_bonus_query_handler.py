@@ -3,7 +3,7 @@ import json
 import openai
 from helper_functions import llm
 
-# Load the JSON file
+# Load the MD file
 filepath = './data/baby_bonus.md'
 with open(filepath, 'r') as file:
     baby_bonus_info = file.read()    
@@ -24,7 +24,7 @@ def calculate_baby_bonus(
         Step 2:
         Generate two timelines up until {as_of}:
         1) A timeline for the Baby Bonus Cash Gift (BBCG).
-        Include the total amount of cash gifts disbursed by {as_of}.
+        Calculate the total amount of cash gifts disbursed by {as_of}.
         2) A timeline for personal savings and the government’s contribution (First Step Grant + Government Co-matching) to the Child Development Account (CDA).
         Calculate both the personal savings and government contributions up until {as_of}.
 
