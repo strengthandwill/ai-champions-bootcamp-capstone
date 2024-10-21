@@ -52,6 +52,6 @@ We welcome contributions! If you'd like to contribute to the project, please for
 
 ## 📫 Contact
 
-For any inquiries or feedback, please reach out via [poh_kah_kong@imda.gov.sg](poh_kah_kong@imda.gov.sg). We appreciate your interest and support!
+For any inquiries or feedback, please reach out via [poh_kah_kong@imda.gov.sg](mailto:poh_kah_kong@imda.gov.sg). We appreciate your interest and support!
 
 Thank you for checking out the **GovTech AI Champions Capstone**! Your engagement helps us drive innovation in government services.
