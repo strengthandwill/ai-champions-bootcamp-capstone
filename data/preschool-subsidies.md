@@ -1,124 +1,115 @@
----
+# Types of Preschools Available
 
-### 21 Feb 2024
+## MOE Kindergartens (MKs) and Government-supported preschools
 
-**SOURCE: CPF Board**  
-[What is the CPF Retirement Sum?](https://www.cpf.gov.sg/member/infohub/educational-resources/what-is-the-cpf-retirement-sum)
+MOE Kindergartens are directly run by MOE. Government-supported preschools refer to centres under the Anchor Operator and Partner Operator schemes. Anchor Operator and Partner Operator centres are subject to fee caps and quality requirements.
 
-A common concern of many Singaporeans is that their retirement savings will not last till they are old. This is especially true when they do not have a steady income stream post-retirement.
+## Types of preschools
 
-Taking into account your CPF for retirement planning is a natural first step for most Singaporeans as they would have accumulated CPF savings during their working lives.
+### 1. Childcare and Infant Care Centres
 
-To ensure a solid foundation for your retirement years, it’s useful to understand the options available and how to make the most out of your CPF savings. Let’s dive in and explore what the CPF retirement sum means for you!
+Infant care services cater to infants aged between two and 18 months. They are usually provided in childcare centres, though some centres only provide either infant or childcare services.
 
----
+Childcare centres provide early childhood care and development programmes for children aged between 18 months and below seven years old.
 
-### Understanding the Retirement Sum (RS)
+### 2. Kindergartens
 
-You might have heard about the term “minimum sum”, but do you know it was renamed to the “retirement sum” in 2016?
+Kindergartens provide preschool education programmes for children between 18 months and below seven years old. Most kindergarten sessions are three to four hours each day.
 
-In essence, the retirement sum (RS) is a reference point that provides an indication of how much you need to save to meet your desired monthly payouts.
+MOE Kindergartens offer a four-hour programme for Singapore Citizens and Permanent Residents K1 and K2 children aged five and six. All MKs offer a holistic curriculum in English and three Mother Tongue Languages, based on the principles in MOE’s *Nurturing Early Learners* Framework, and seek to ignite the joy of learning in children. Situated in primary schools, MKs also smoothen children’s transition to primary school. For parents who require full-day services for their child, Kindergarten Care (KCare) is available at all MKs. [Click to find out more about MOE Kindergarten and KCare.](#)
 
-There are three levels of retirement sums to note:
+## MOE Kindergarten – Early Years Centre Partnership
 
-- **Basic Retirement Sum (BRS):** Provides monthly payouts in retirement to cover basic living needs, excluding rental expenses.
-- **Full Retirement Sum (FRS):** An ideal point of reference for how much one needs in retirement.
-- **Enhanced Retirement Sum (ERS):** Provides a higher monthly payout, suitable for those who might require more retirement income.
+MOE partners Anchor Operators to provide a continuum of quality and affordable preschool education for children aged two months to six years via the MOE Kindergarten - Early Years Centre (MK-EYC) Partnership.
 
----
-
-### How is My Retirement Sum (RS) Calculated?
-
-When you turn age 55, the savings from your Special Account (SA), followed by your Ordinary Account (OA), will be transferred to a newly opened Retirement Account (RA).
-
-The amount to be transferred is capped at the FRS as a reference of how much you might need for retirement. The amount of CPF savings in your RA will ultimately determine your future monthly payouts.
-
-> **TIP:** If you wish to receive higher payouts for your desired retirement lifestyle, you can choose to set aside more by making a top-up to the current ERS.
-
-Unlike the BRS and FRS, which are fixed according to your year of birth, the ERS increases yearly and is the maximum amount that CPF members can top up to.
-
-The BRS and FRS are adjusted annually as long-term inflation, life expectancy, and improvements in the standard of living are considered. The retirement sum you need to set aside depends on when you turn 55 and is fixed for the rest of your life. Hence, your retirement sum might differ from a friend’s if you are of a different age.
-
-> **TIP:** If you own a property in Singapore with a lease lasting until you are 95 years or older, you can meet your FRS with a mixture of property (up to half your FRS) and cash.
-
-If you are born in 1958 or after and have at least $60,000 in your RA when you start your monthly payouts, you will automatically be included in **CPF LIFE** – a national longevity insurance annuity scheme that provides monthly payouts no matter how long you live.
+Under the MK-EYC model, your child will attend an EYC, operated by an Anchor Operator, until he or she is four years old. MOE introduced partnership clusters (i.e., one or more EYC partnering one or more MK) at the 2024 MK Registration Exercise to provide parents with the choice of more partner MK options. Eligible children in the EYCs are guaranteed a place at a partner MK and can choose to enrol in the MK to continue their K1 and K2 programme, ensuring a seamless transition to K1 in the year they turn five. [Click to find out more about the MK-EYC model.](#) Use MOE’s *SchoolFinder* to search for MOE Kindergartens near you with Early Years Centres.
 
 ---
 
-### How Much CPF LIFE Payout Will You Get Based on Your Retirement Sum?
+# Subsidies for Preschool
 
-**CPF Retirement Sum for Members Who Turn Age 55 in 2024**
+## Subsidies for Preschool
 
-| Amount in Retirement Account at Age 55 | Estimated Monthly Payout from Age 65^ |
-| -------------------------------------- | ------------------------------------ |
-| Basic Retirement Sum (BRS) - $102,900  | $840 - $900                          |
-| Full Retirement Sum (FRS) - $205,800   | $1,560 - $1,670                      |
+### Childcare and Infant Care Programmes
+Parents with Singapore Citizen children enrolled in licensed childcare centres can receive a Basic Subsidy of up to $600 per month for full-day infant care, and up to $300 per month for full-day childcare.
 
-If you are age 55 and above, you can choose to top up your Retirement Account up to the current ERS for higher monthly payouts:
+If you are a working mother with a gross monthly household income of $12,000 and below, you are eligible for the Additional Subsidy, on top of the Basic Subsidy. Lower-income families will receive higher subsidies.
 
-| Amount | Estimated Monthly Payout from Age 65 (if you top up to ERS at age 55)^ |
-| ------ | ---------------------------------------------------------------------- |
-| Current Enhanced Retirement Sum (ERS) - $308,700 | $2,280 - $2,450              |
+Families with 5 members or more, including three non-working dependants (e.g. dual-income family with three children), can choose to calculate their Additional Subsidy on a per capita income (PCI) basis to qualify for higher subsidies.
 
-^ Estimated for members who turn age 55 in 2024 and set aside/top-up the respective amounts, based on the CPF LIFE Standard Plan and CPF interest rate of 4%.
+### Monthly Subsidy for Full-Day Childcare Programmes
 
----
+*(For Singapore Citizen children aged 18 months to below seven years old)*
 
-### What Are the Retirement Sums Applicable to Me?
+| Working Mother Status | Gross Monthly Household Income | Gross Monthly Per Capita Income (PCI) | Basic Subsidy | Additional Subsidy | Max Total Subsidy^ |
+|-----------------------|--------------------------------|--------------------------------------|---------------|--------------------|--------------------|
+| **Working Mothers**    | $3,000 and below               | $750 and below                       | $300          | $467               | $767               |
+|                       | $3,001 - $4,500                | $751 - $1,125                        | $300          | $440               | $740               |
+|                       | $4,501 - $6,000                | $1,126 - $1,500                      | $300          | $340               | $640               |
+|                       | $6,001 - $7,500                | $1,501 - $1,875                      | $300          | $260               | $560               |
+|                       | $7,501 - $9,000                | $1,876 - $2,250                      | $300          | $190               | $490               |
+|                       | $9,001 - $10,500               | $2,251 - $2,625                      | $300          | $130               | $430               |
+|                       | $10,501 - $12,000              | $2,626 - $3,000                      | $300          | $80                | $380               |
+|                       | Above $12,000                  | Above $3,000                         | $300          | N/A                | $300               |
+| **Non-Working Mothers**|                                |                                      | $150          | N/A                | $150               |
 
-**Retirement Sums for Members Who Turn Age 55 (2023–2027)**
+### Monthly Subsidy for Full-Day Infant Care Programmes
 
-| 55th Birthday in the Year of | Basic Retirement Sum (BRS) | Full Retirement Sum (FRS) |
-| ---------------------------- | -------------------------- | ------------------------- |
-| 2024                         | $102,900                   | $205,800                  |
-| 2025                         | $106,500                   | $213,000                  |
-| 2026                         | $110,200                   | $220,400                  |
-| 2027                         | $114,100                   | $228,200                  |
+*(For Singapore Citizen children aged between two and 18 months)*
 
-The government will announce the retirement sums ahead of time to help CPF members reaching age 55 prepare for retirement.
+| Working Mother Status | Gross Monthly Household Income | Gross Monthly Per Capita Income (PCI)* | Basic Subsidy | Additional Subsidy | Max Total Subsidy^ |
+|-----------------------|--------------------------------|---------------------------------------|---------------|--------------------|--------------------|
+| **Working Mothers**    | $3,000 and below               | $750 and below                        | $600          | $710               | $1,310             |
+|                       | $3,001 - $4,500                | $751 - $1,125                         | $600          | $640               | $1,240             |
+|                       | $4,501 - $6,000                | $1,126 - $1,500                       | $600          | $500               | $1,100             |
+|                       | $6,001 - $7,500                | $1,501 - $1,875                       | $600          | $380               | $980               |
+|                       | $7,501 - $9,000                | $1,876 - $2,250                       | $600          | $240               | $840               |
+|                       | $9,001 - $10,500               | $2,251 - $2,625                       | $600          | $100               | $700               |
+|                       | $10,501 - $12,000              | $2,626 - $3,000                       | $600          | $40                | $640               |
+|                       | Above $12,000                  | Above $3,000                          | $600          | N/A                | $600               |
+| **Non-Working Mothers**|                                |                                       | $150          | N/A                | $150               |
 
-For higher monthly payouts, members age 55 and above can top up their RA up to the current ERS, regardless of when they turn 55.
-
-**ERS for 2024–2027**
-
-| Year | Enhanced Retirement Sum (ERS) |
-| ---- | ----------------------------- |
-| 2024 (current) | $308,700 |
-| 2025 | $426,000 |
-| 2026 | $440,800 |
-| 2027 | $456,400 |
-
-The ERS is set at three times the BRS. From 2025, the ERS will be raised to four times the BRS to allow members to voluntarily top up more for higher payouts.
-
----
-
-### Options to Grow Your CPF Savings
-
-If you have not met your FRS or BRS by age 55, you can still receive your payouts at age 65. However, these payouts may be lower than expected, so it’s essential to plan accordingly.
-
-**Ways to Get Higher Payouts in Retirement**:
-
-1. **Top Up to the Current ERS**  
-   To enjoy higher payouts, consider cash top-ups to your RA (up to your current ERS). You’ll also receive tax relief of up to $16,000 a year for cash top-ups to both yourself and loved ones (up to the current FRS).  
-   _Login to your Retirement Dashboard to view your top-up amount._
-
-2. **Receive Matching Grant on Cash Top-Ups**  
-   Eligible individuals can receive a dollar-for-dollar grant (up to an annual cap of $600) through the Matched Retirement Savings Scheme (MRSS) for top-ups made to their RA.  
-   _From 1 January 2025, MRSS will be enhanced to help eligible members save more for retirement._
+^Subject to a minimum co-payment by parents. Please [click here](#) for more details on subsidy and minimum co-payment amounts for childcare (refer to Annex A) and infant care (refer to Annex B). Parents only need to pay the net fees after subsidy.
 
 ---
 
-### Laying the Foundations for a Solid Retirement Plan
+### Kindergartens
 
-The BRS and FRS serve as valuable guides to assist you in planning for retirement. By keeping the retirement sum in mind, you can better plan for your golden years based on your desired retirement lifestyle.
+Singaporean children enrolled in an Anchor Operator or MOE Kindergarten are eligible for the Kindergarten Fee Assistance Scheme (KiFAS) if the family’s gross monthly household income is $12,000 and below.
 
-Try using the **CPF Planner** (for those under age 54) or the **Plan My Payouts Tool** (for those age 65 and above) to plan your retirement with CPF.
+For all Singapore Citizen children enrolled in KCare in an MOE Kindergarten, they are additionally eligible for a Basic Subsidy of $150 per month. Families with working mothers, and with gross monthly incomes of $12,000 and below, are eligible for KCare Additional Subsidy of up to $235 per month. [Click here](#) to find out more about the fees and subsidies available for KCare in MKs.
+
+#### Kindergarten Fee Assistance Scheme (KiFAS)
+*(For Singapore Citizen children enrolled in kindergartens run by Anchor Operators or MOE)*
+
+| Gross Monthly Household Income | Gross Monthly Per Capita Income* | Max KiFAS^ |
+|-------------------------------|-----------------------------------|------------|
+| $3,000 and below               | $750 and below                   | $161       |
+| $3,001 - $4,500                | $751 - $1,125                    | $150       |
+| $4,501 - $6,000                | $1,126 - $1,500                  | $107       |
+| $6,001 - $7,500                | $1,501 - $1,875                  | $87        |
+| $7,501 - $9,000                | $1,876 - $2,250                  | $67        |
+| $9,001 - $10,500               | $2,251 - $2,625                  | $47        |
+| $10,501 - $12,000              | $2,626 - $3,000                  | $17        |
+| Above $12,000                  | Above $3,000                     | N/A        |
+
+*Households with five or more family members (including three or more dependants) may wish to have their income assessed on a per capita basis, as they may qualify for higher KiFAS.
+
+^Subject to a minimum co-payment by parents. Please visit ECDA's webpage for more information on preschool subsidies.
 
 ---
 
-**Happy planning!**
+## FAQ
 
-_The information provided in this article is accurate as of the date of publication._  
-[Source: CPF Board](https://www.cpf.gov.sg/member/infohub/educational-resources/what-is-the-cpf-retirement-sum)
+**Expand All**
 
----
+**Collapse All**
+
+1. **How do I apply for preschool subsidies?**  
+   All applications for the Basic and Additional Subsidy (for childcare and infant care) and KiFAS (for kindergarten) should be made through your preschool centre. The centre will provide you with the application form.
+
+2. **How will I receive the subsidies?**  
+   The subsidies will be disbursed directly to your preschool centre. You will just need to pay the net fees after subsidy.
+
+3. **Am I eligible for the Additional Subsidy if my child is enrolled in half-day and flexi-care programmes in childcare and infant care centres?**  
+   Yes. Subsidies for half-day and flexi-care programmes in childcare and infant care centres are available. Details can be found on the Early Childhood Development Agency’s website at [https://www.ecda.gov.sg/parents/subsidies-financial-assistance#CCICS](https://www.ecda.gov.sg/parents/subsidies-financial-assistance#CCICS).

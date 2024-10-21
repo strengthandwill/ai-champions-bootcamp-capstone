@@ -31,8 +31,8 @@ def calculate_baby_bonus(
         Step 3:
         Provide a summary of the calculations and results from Step 2.
 
-        Step 4: {delimiter}
-        Generate a dictionary object containing the data from Step 2 and Step 3. The structure should be as follows:
+        Step 4: {delimiter}        
+        Generate a dictionary object containing the data from Step 2 and Step 3. Ensure the response includes only the dictionary object, without any enclosing tags or delimiters. The structure should be as follows:
         - BBCG:
             - Overview: A paragraph-long overview of the calculations.
             - Timeline:

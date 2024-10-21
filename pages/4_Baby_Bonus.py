@@ -5,11 +5,13 @@ from helper_functions.utility import check_password
 
 def setup_intro(intro):
     intro.markdown(f"""
-        The Baby Bonus Scheme helps you manage the costs of raising a child. It consists of:            
-        *   (i) Baby Bonus Cash Gift (BBCG) and    
-        *   (ii) Child Development Account (CDA) benefits, including the First Step Grant and Government co-matching of parents’ savings.    
+        The Baby Bonus Scheme is designed to assist parents in managing the financial costs associated with raising a child. The scheme includes two key components:
+        1. Baby Bonus Cash Gift (BBCG): A cash gift provided to parents to help with early-stage child-rearing expenses.
+        2. Child Development Account (CDA) benefits, which offer:
+            - A First Step Grant to kickstart the child's savings.
+            - Government co-matching of parents’ contributions to the CDA, helping to grow the savings further for the child’s developmental needs.
 
-        The scheme was enhanced in 2023 for eligible children born on or after 14 Feb 2023.
+        In 2023, the scheme was enhanced to provide greater benefits for families, specifically for children born on or after 14 February 2023, making it even more beneficial for new parents.
     """)
     intro.subheader("Calculate the baby bonus that you can receive!")
 

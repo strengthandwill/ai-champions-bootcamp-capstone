@@ -4,37 +4,98 @@ import openai
 from helper_functions import llm
 
 # Load the MD file
-filepath = './data/preschool-subsidies.md'
-with open(filepath, 'r') as file:
-    frs_info = file.read()    
+def read_file(filepath):
+    with open(filepath, 'r') as file:
+        return file.read()
 
 def calculate_preschool_subsidies(
-        current_amount, current_date,
-        saving_amount, saving_start_date, saving_occurrence):    
+        father_gross_monthly_income, mother_gross_monthly_income, mother_working_status,
+        baby_birth_date, baby_citizenship,
+        as_of):    
     delimiter = "####"
 
     system_message = f"""
-        The customer query will be enclosed within a pair of {delimiter}. Please follow the steps below to address it:
+        Follow the steps below to address customer queries. The customer query will be enclosed within a pair of {delimiter}.
 
-        Step 1:
-        Review the information below on Singapore's CPF Full Retirement Sum (FRS) and how it impacts retirement savings and payouts.
-        {frs_info}
+        Step 1: Review the provided information on Singapore's Preschool Subsidies:
+        {preschool_subsidies_info}
 
-        Step 2:
-        - Create a timeline showing the projected growth of the customer’s Special Account (SA) savings.
-        - Identify the date when the Full Retirement Sum (FRS) will be reached, based on the customer’s SA balance and savings contributions.
-        - Calculate the CPF LIFE payout once the FRS is reached and CPF LIFE is activated.
+        Step 2: Review the enrollment fees of the following preschools:
+        - **PCF Sparkletots**: {pcf}
+        - **My First Skool**: {myfirstskool}
+        - **My World Preschool**: {myworldpreschool}
+        - **Skool4Kidz**: {skool4kidz}
+        - **E-Bridge Preschool**: {ebridgepreschool}
+
+        Step 3: Based on the customer's query, calculate the following:
+        - **Household Income**:
+          - Gross Monthly Household Income
+          - Gross Monthly Per Capita Income (PCI)
+        - **Baby Details**:
+          - Baby's Age as of {as_of}
+          - Preschool Programme: Full-Day Infant Care / Full-Day Childcare / Kindergarten
+        - **Subsidies**:
+          - Basic and Additional Subsidies (as applicable)
+        - **Enrollment Fees (with and without subsidies)** for:
+          - PCF Sparkletots
+          - My First Skool
+          - My World Preschool
+          - Skool4Kidz
+          - E-Bridge Preschool
+
+        Step 4: {delimiter}
+        Generate a dictionary object containing the data from Step 3. Ensure the response includes only the dictionary object, without any enclosing tags or delimiters. The structure should be as follows:
+
+        - Household Income:
+            - Overview: A detailed paragraph summarizing the income calculations.
+            - Gross Monthly Household Income
+            - Gross Monthly Per Capita Income
+            - Summary: A concise summary of household income and calculations.
+        - Baby Details:
+            - Baby Age: As of {as_of}
+            - Preschool Programme
+            - Summary: A paragraph summarizing baby details and the chosen preschool programme.
+        - Subsidies:
+            - Basic Subsidy: If applicable
+            - Additional Subsidy: If applicable
+            - Max KiFAS: If applicable
+            - Summary: A paragraph summarizing the subsidies.
+        - Enrollment Fees:
+            - Overview: A comprehensive paragraph summarizing the fee calculations.
+            - Preschools:
+                - PCF Sparkletots
+                    - With Subsidies
+                    - Without Subsidies
+                - My First Skool
+                    - With Subsidies
+                    - Without Subsidies                
+                - My World Preschool
+                    - With Subsidies
+                    - Without Subsidies                                
+                - Skool4Kidz
+                    - With Subsidies
+                    - Without Subsidies                                
+                - E-Bridge Preschool
+                    - With Subsidies
+                    - Without Subsidies                                
+            - Summary: A paragraph summarizing the enrollment fees and calculations. 
 
         Response Format:
-        Step 1: <Summary of the CPF Full Retirement Sum and its implications on savings and payouts>
-        Step 2: <Detailed timeline of SA growth, FRS achievement date, and CPF LIFE payout estimate>     
+        Step 1: <Detailed explanation based on subsidy information>  
+        Step 2: <Explanation of enrollment fees with relevant comparisons>  
+        Step 3: <Presentation of calculations and final responses>  
+        Step 4: {delimiter} <Structured dictionary object> 
     """
 
     print(system_message)
 
     user_message = f"""
-        - The current Special Account balance is {current_amount} as of {current_date}.
-        - {saving_amount} is contributed to the Special Account {saving_occurrence}, starting on {saving_start_date}.
+        The customer has provided the following details:
+        - Father's monthly income: {father_gross_monthly_income}
+        - Mother's monthly per capita income: {mother_gross_monthly_income}
+        - Mother's employment status: {mother_working_status}
+        - Baby's birth date: {baby_birth_date}
+        - Baby's citizenship: {baby_citizenship}
     """
 
     print(user_message)
@@ -50,6 +111,14 @@ def calculate_preschool_subsidies(
 
     print(response_str)
     
-    # response_str = response_str.split(delimiter)[-1]    
-    # dict = json.loads(response_str)    
-    return response_str
+    response_str = response_str.split(delimiter)[-1]    
+    dict = json.loads(response_str)
+
+    return dict["Household Income"], dict["Baby Details"], dict["Subsidies"], dict["Enrollment Fees"]
+
+preschool_subsidies_info = read_file('./data/preschool-subsidies.md')
+pcf = read_file('./data/pcf.md')
+myfirstskool = read_file('./data/myfirstskool.md')
+myworldpreschool = read_file('./data/myworldpreschool.md')
+skool4kidz = read_file('./data/skool4kidz.md')
+ebridgepreschool = read_file('./data/ebridgepreschool.md')
