@@ -62,11 +62,11 @@ def update_result(result, bbcg, cda):
 # region <--------- Streamlit App Configuration --------->
 st.set_page_config(
     layout="centered",
-    page_title="KK Streamlit App"
+    page_title="🎁 Baby Benefits Calculator"
 )
 # endregion <--------- Streamlit App Configuration --------->
 
-st.title("Baby Bonus Calculator")
+st.title("👶 Baby Bonus Calculator")
 
 # Check if the password is correct.  
 if not check_password():  

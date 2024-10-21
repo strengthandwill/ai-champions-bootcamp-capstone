@@ -74,11 +74,11 @@ def update_result(result, household_income, baby_details, subsidies, enrollment_
 # region <--------- Streamlit App Configuration --------->
 st.set_page_config(
     layout="centered",
-    page_title="KK Streamlit App"
+    page_title="Baby Benefits Calculator"
 )
 # endregion <--------- Streamlit App Configuration --------->
 
-st.title("Preschool Subsidies Calculator")
+st.title("🏫 Preschool Subsidies Calculator")
 
 # Check if the password is correct.  
 if not check_password():  
