@@ -1,259 +1,57 @@
-# Notebook: [ Week #8 - Deploying Streamlit App]
-
-💡💡💡 We strongly suggest that you at least go through the following materials in our notes before proceeding with this hands-on session:
-- *"Password Protect the Streamlit App"*
-- *"Intro to Git and GitHub (Version Control)"*
-- *"Deploying Streamlit App on Streamlit Community Cloud*
-
------
-
-💎 The **best way** to go through this hands-on:
-- Try not to watch the step-by-step videos unless you get stuck for more than 15-20 minutes.
-
-- At this point, you should be comfortable with fiddling with the code and resolvings errors on your own.
-
----
-
-# Task 1: Setting Up the Project Files
-
-1. Make sure you have set up the following:
-    - A [GitHub account](https://github.com/)
-    - Install [GitHub Desktop](https://desktop.github.com/download/) on your local machine
-    - A [Streamlit Account](https://streamlit.io/cloud)
+# GovTech AI Champions Capstone
 
+Welcome to the **GovTech AI Champions Capstone** project! This application showcases innovative applications of AI technology to enhance government services and improve citizen engagement.
 
-2. Download a copy of the completed code of Topic 7 (Notebook Part 2) from the URL below onto your laptop.
-    - URL: [abc-notes.data.tech.gov.sg/resources/data/week-08.zip](abc-notes.data.tech.gov.sg/resources/data/week-08.zip)
-    - Unzip the downloaded file
-    - The folder that contains all the unzipped file will the `project folder` for this hands-on.
+## 🌐 Application
 
-3. Set up a virtual environment (`venv`) in the  `project folder` and install the required packages:
-    - openai
-    - streamlit
-    - pandas
-    - python-dotenv
-    - tiktoken
-
-4. Copy your `.env` file into the folder. It must at least contain the `OPENAI_API_KEY` variable.
-
------
-
-<br>
-
----
----
-
-# Task 2: Password Protect the Streamlit App
-
-1. Create the file that store the password
-    - Create a new folder called `.streamlit` at the root of the project folder
-    - Add a new file `secrets.toml` in the new folder
-    - Add this line to the file `password = "<your app password>"`
-    - Note that this `toml` will only be used for local development and will be excluded from the GitHub repository.
-    - The `passsword` will be set separately in the Streamlit Community Cloud settings.
+You can access the live application here: [GovTech AI Champions App](https://ai-champions-bootcamp-capstone-hob7rvjpaxlv5wvbjbpfcb.streamlit.app)
 
----
+## 💻 Source Code
 
+Explore the source code and contribute to the project on GitHub: [GitHub Repository](https://github.com/strengthandwill/ai-champions-bootcamp-capstone)
 
-2. Add a new Python script `utility.py` in the `helper_functions` folder. The script will contain the following code:
+## 📄 Project Overview
 
-    ```Python
-    import streamlit as st  
-    import random  
-    import hmac  
-    
-    # """  
-    # This file contains the common components used in the Streamlit App.  
-    # This includes the sidebar, the title, the footer, and the password check.  
-    # """  
-    
-    
-    def check_password():  
-        """Returns `True` if the user had the correct password."""  
-        def password_entered():  
-            """Checks whether a password entered by the user is correct."""  
-            if hmac.compare_digest(st.session_state["password"], st.secrets["password"]):  
-                st.session_state["password_correct"] = True  
-                del st.session_state["password"]  # Don't store the password.  
-            else:  
-                st.session_state["password_correct"] = False  
-        # Return True if the passward is validated.  
-        if st.session_state.get("password_correct", False):  
-            return True  
-        # Show input for password.  
-        st.text_input(  
-            "Password", type="password", on_change=password_entered, key="password"  
-        )  
-        if "password_correct" in st.session_state:  
-            st.error("😕 Password incorrect")  
-        return False
-    ```
+This capstone project is part of the GovTech AI Champions Bootcamp, focusing on developing AI solutions that elevate government services. The project aims to create a user-friendly interface for parents to access financial support information, particularly through the Baby Benefits Calculator.
 
----
+## 🍼 App Information
 
-3. Add this code block into any of the scripts that render a Streamlit page that need to be password protected:
+The **Baby Benefits Calculator** leverages the OpenAI API to quickly calculate the available benefits based on the information you provide. It empowers parents by simplifying the understanding of government support for child-rearing expenses.
 
-    ```Python
-    import streamlit as st  
-    from helper_functions.utility import check_password  
-    
-    # Check if the password is correct.  
-    if not check_password():  
-        st.stop()
-    ```
+### Baby Bonus Scheme
 
----
+The **Baby Bonus Scheme** is designed to assist parents in managing the financial costs associated with raising a child. The scheme includes two key components:
 
-4. Try the app locally to see if everything is working as expected.
+1. **Baby Bonus Cash Gift (BBCG)**: A cash gift provided to parents to help with early-stage child-rearing expenses.
+2. **Child Development Account (CDA) Benefits**, which offer:
+   - A **First Step Grant** to kickstart the child's savings.
+   - **Government co-matching** of parents’ contributions to the CDA, helping to grow the savings further for the child’s developmental needs.
 
------
+In 2023, the scheme was enhanced to provide greater benefits for families, specifically for children born on or after **14 February 2023**, making it even more advantageous for new parents.
 
-1. Initialize a new repository in the `week-08` folder.
+### Childcare Subsidies
 
-    - Within VS Code, initalize a new repository in the `week-08` folder.
-    
-    - Alternatively, you can also initialize a new repository in the `week-08` folder using GitHub Desktop.
+Parents of Singapore Citizen children enrolled in licensed childcare centres can access financial support through government subsidies. The **Basic Subsidy** provides:
+- Up to **$600 per month** for full-day infant care.
+- Up to **$300 per month** for full-day childcare.
 
----
+Working mothers with a gross monthly household income of **$12,000 or below** are eligible for the **Additional Subsidy**, which offers further assistance. Lower-income families qualify for higher subsidies.
 
-2. Create a `.gitignore` file in the root of the project folder.
+Families with **five or more members**, including three non-working dependants, can opt to calculate their subsidy based on **per capita income (PCI)** to access higher subsidies.
 
-    - Add the following lines to the file:
-        ```
-        # Byte-compiled / optimized / DLL files
-        __pycache__/
-        *.py[cod]
-        *$py.class
+## 🛠️ Usage
 
-        # Virtual environments
-        venv/
-        env/
-        ENV/
-        .venv/
-        .env
+To use the Baby Benefits Calculator:
+1. Enter your inputs into the provided form.
+2. Click the 'Calculate' button.
+3. The app will compute the baby benefits you can receive.
 
-        # Distribution / packaging
-        build/
-        dist/
-        *.egg-info/
+## 🤝 Contribution
 
-        # VS Code
-        .vscode/
-        # PyCharm
-        .idea/
+We welcome contributions! If you'd like to contribute to the project, please fork the repository, make your changes, and submit a pull request. Your input is invaluable in making this project better!
 
-        # Streamlit
-        .streamlit/secrets.toml
+## 📫 Contact
 
-        ```
+For any inquiries or feedback, please reach out via [your email address or preferred contact method]. We appreciate your interest and support!
 
----
-
-3. Commit the changes to the GitHub repository.
-
-    - Within VS Code, stage the changes and commit the changes with a message.
-
-    - Alternatively, you can also commit the changes using GitHub Desktop.
-
----
-
-4. Push the changes to the GitHub repository.
-
-    - You may need to set up the remote repository if you haven't done so.
-
-    - Alternatively, you can also push the changes using GitHub Desktop.
-
-
------
-
----
----
-<br>
-
-# Task 4: Create a New Streamlit App on Streamlit Community Cloud
-
-- Head over to the [Streamlit Community Cloud](https://share.streamlit.io/) and log in.
-- You may need to allow Streamlit to access your GitHub account, if you haven't done so.
-- Click on the "New app" button.
-- Select the repository that you have pushed to GitHub.
-- Click on the `Advanced settings`
-    - Set the `password` and `OPENAI_API_KEY` in the `Secrets` section.
-- Click on the `Deploy` button.
-
-![](https://abc-notes.data.tech.gov.sg/resources/img/topic-08-walkthrough-01.png)
-
------
-
-# Task 5: Specifying the Packages Needed and the Way API Keys are being Read
-
-- You will get an error message from the Streamlit app.
-
-- This is because we have not yet:
-
-    - Specified the packages needed for the app to run.
-    
-    - Change the way the API keys are being read in our Script
-
-
----
-
-### Step 1: Add a `requirements.txt` file in the root of the project folder.
-- run `pip freeze > requirements.txt` in the terminal to generate the file.
-
-
----
-
-### Step 2: Modify the way the API keys are being read in the script in `llm.py` file.
-
-```Python
-Original Code:
-import os
-from dotenv import load_dotenv
-from openai import OpenAI
-import tiktoken
-
-load_dotenv('.env')
-
-
-# Pass the API Key to the OpenAI Client
-client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
-
-# Some other code here are omitted for brevity
-```
-
----
-<br>
-
-- Here is the new code
-
-```Python
-import os
-import streamlit as st
-from dotenv import load_dotenv
-from openai import OpenAI
-import tiktoken
-
-
-if load_dotenv('.env'):
-   # for local development
-   OPENAI_KEY = os.getenv('OPENAI_API_KEY')
-else:
-   OPENAI_KEY = st.secrets['OPENAI_API_KEY']
-
-
-# Pass the API Key to the OpenAI Client
-client = OpenAI(api_key=OPENAI_KEY)
-# Some other code here are omitted for brevity
-```
-
----
-
-### Step 3: **Commit and push** the changes to the GitHub repository.
-
-
----
----
-<br>
-
------
-
+Thank you for checking out the **GovTech AI Champions Capstone**! Your engagement helps us drive innovation in government services.
