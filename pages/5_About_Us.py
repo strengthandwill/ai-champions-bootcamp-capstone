@@ -21,8 +21,8 @@ The data used in this application is derived from:
     - E-Bridge Preschool
 
 ## Features
-- **Baby Bonus Timeline**: Users can input details such as birth order and CDA savings to get a detailed breakdown of cash gifts and government contributions over time.
-- **Preschool Subsidy Calculator**: Users can calculate the fees for various preschools with and without subsidies.
+- **Baby Bonus Calculator**: Users can input details such as birth order and CDA savings to get a detailed breakdown of cash gifts and government contributions over time.
+- **Preschool Subsidies Calculator**: Users can calculate the fees for various preschools with and without subsidies.
 
 ## Repository
 You can find the source code for this project on GitHub:
