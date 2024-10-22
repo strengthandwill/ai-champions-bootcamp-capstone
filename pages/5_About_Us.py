@@ -25,6 +25,6 @@ The data used in this application is derived from:
 - **Preschool Subsidy Calculator**: Users can calculate the fees for various preschools with and without subsidies.
 
 ## Repository
-    You can find the source code for this project on GitHub:
-    [AI Champions Bootcamp Capstone Repository](https://github.com/strengthandwill/ai-champions-bootcamp-capstone)            
+You can find the source code for this project on GitHub:
+[AI Champions Bootcamp Capstone Repository](https://github.com/strengthandwill/ai-champions-bootcamp-capstone)            
 """)
