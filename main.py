@@ -19,6 +19,12 @@ st.page_link("pages/2_Baby_Bonus.py", label="Baby Bonus Calculator", icon="👶"
 # Link to the "Preschool Subsidies Calculator" page with a school icon
 st.page_link("pages/3_Preschool_Subsidies.py", label="Preschool Subsidies Calculator", icon="🏫")
 
+# Link to the "Methodology" page to explain the calculations or methods used
+st.page_link("pages/4_Methodology.py", label="Methodology", icon="📝")
+
+# Link to the "About Us" page to provide information about the creators
+st.page_link("pages/5_About_Us.py", label="About Us", icon="😃")
+
 # Disclaimer section explaining that the app is for educational purposes only
 # Uses an expander so users can expand/collapse the disclaimer
 with st.expander("Disclaimer"):

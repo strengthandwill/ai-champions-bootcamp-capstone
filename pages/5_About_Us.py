@@ -7,11 +7,8 @@ st.set_page_config(
 )
 # endregion <--------- Streamlit App Configuration --------->
 
-# Display app title
-st.title("👶 Baby Bonus Calculator")
-
 # Set the title for the "About Us" section
-st.title("About Us")
+st.title("😃 About Us")
 
 # Markdown section to explain the scope, objectives, data sources, features, and repository link for the project
 st.markdown("""

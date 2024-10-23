@@ -8,7 +8,7 @@ st.set_page_config(
 # endregion <--------- Streamlit App Configuration --------->
 
 # Set the title of the page
-st.title("Methodology")
+st.title("📝 Methodology")
 
 # Markdown section to describe the data flow and methodology of the application
 st.markdown("""
