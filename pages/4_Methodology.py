@@ -1,5 +1,12 @@
 import streamlit as st  # Import Streamlit for building the web app
 
+# region <--------- Streamlit App Configuration --------->
+st.set_page_config(
+    layout="centered",
+    page_title="Baby Benefits Calculator"
+)
+# endregion <--------- Streamlit App Configuration --------->
+
 # Set the title of the page
 st.title("Methodology")
 
