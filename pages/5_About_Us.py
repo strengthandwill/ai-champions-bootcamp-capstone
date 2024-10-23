@@ -1,6 +1,9 @@
-import streamlit as st
+import streamlit as st  # Import Streamlit for building the web app
 
+# Set the title for the "About Us" section
 st.title("About Us")
+
+# Markdown section to explain the scope, objectives, data sources, features, and repository link for the project
 st.markdown("""
 ## Project Scope
 The goal of this project is to help parents in Singapore plan for their child's future by calculating available financial assistance schemes such as the Baby Bonus and Preschool Subsidies.
