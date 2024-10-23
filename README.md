@@ -29,7 +29,7 @@ The **Baby Bonus Scheme** is designed to assist parents in managing the financia
 
 In 2023, the scheme was enhanced to provide greater benefits for families, specifically for children born on or after **14 February 2023**, making it even more advantageous for new parents.
 
-### Childcare Subsidies
+### Preschool Subsidies
 
 Parents of Singapore Citizen children enrolled in licensed childcare centres can access financial support through government subsidies. The **Basic Subsidy** provides:
 - Up to **$600 per month** for full-day infant care.
@@ -54,4 +54,4 @@ We welcome contributions! If you'd like to contribute to the project, please for
 
 For any inquiries or feedback, please reach out via [poh_kah_kong@imda.gov.sg](mailto:poh_kah_kong@imda.gov.sg). We appreciate your interest and support!
 
-Thank you for checking out the **GovTech AI Champions Capstone**! Your engagement helps us drive innovation in government services.
+Thank you for checking out the **GovTech AI Champions Capstone** project! Your engagement helps us drive innovation in government services.
